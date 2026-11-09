@@ -1,0 +1,72 @@
+
+.navbar {
+  width: 100%;
+  min-height: 82px;
+  padding: 15px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background: #ffffff;
+  border-bottom: 1px solid #e8ebf2;
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  font-family: 'Manrope', sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  color: #101b36;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo span {
+  font-size: 29px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-links button {
+  background: transparent;
+  border: none;
+  color: #647087;
+  padding: 12px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: .25s;
+}
+
+.nav-links button:hover {
+  background: #eff3ff;
+  color: #3867f5;
+}
+
+.nav-links button.seleccionado {
+  background: #3867f5;
+  color: white;
+}
+
+@media (max-width: 750px) {
+  .navbar {
+    flex-direction: column;
+    padding: 18px 15px;
+  }
+
+  .nav-links {
+    justify-content: center;
+  }
+
+  .nav-links button {
+    padding: 10px;
+    font-size: 12px;
+  }
+}

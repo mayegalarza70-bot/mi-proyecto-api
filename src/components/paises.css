@@ -1,0 +1,63 @@
+
+.paises-pro {
+  width: 100%;
+  color: #eaf0ff;
+}
+
+.paises-pro .paises-hero {
+  padding: 28px;
+  margin-bottom: 25px;
+  border-radius: 18px;
+  background: linear-gradient(120deg, #173d72, #263a80);
+  color: white;
+}
+
+.paises-pro h1,
+.paises-pro h2,
+.paises-pro h3 {
+  color: inherit;
+}
+
+.paises-pro p {
+  color: inherit;
+}
+
+.paises-pro .paises-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+  margin-top: 25px;
+}
+
+.paises-pro .pais-card {
+  padding: 18px;
+  border: 1px solid #34445f;
+  border-radius: 15px;
+  background: #111e32;
+  transition: .25s;
+}
+
+.paises-pro .pais-card:hover {
+  transform: translateY(-5px);
+  border-color: #659bff;
+}
+
+.paises-pro .pais-card img {
+  width: 100%;
+  height: 145px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.paises-pro input,
+.paises-pro select {
+  padding: 12px;
+  border: 1px solid #526580;
+  border-radius: 9px;
+  background: #17263d;
+  color: white;
+}
+
+.paises-pro button {
+  cursor: pointer;
+}
